@@ -1,0 +1,43 @@
+.sticky-navbar {
+    position: sticky;
+    top: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+nav a {
+    margin-right: 15px;
+}
+
+.email .at {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url('email-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.profile-container {
+    text-align: center; /* จัดกึ่งกลางในแนวนอน */
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto; /* จัดกึ่งกลางในแนวตั้ง */
+    display: block; /* ให้เป็นบล็อกอีลีเมนต์เพื่อทำการจัดกึ่งกลาง */
+    margin-bottom: 20px;
+}
+
+
